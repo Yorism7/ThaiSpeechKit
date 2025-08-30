@@ -1,0 +1,26 @@
+* text=auto
+
+# Normalize line endings for common text files
+*.py   text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+*.toml text eol=lf
+*.json text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.sh   text eol=lf
+*.ps1  text eol=lf
+
+# Treat media and model artifacts as binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.mp3  binary
+*.wav  binary
+*.flac binary
+*.pt   binary
+*.pth  binary
+*.bin  binary
+*.model binary
+

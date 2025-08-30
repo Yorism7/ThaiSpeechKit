@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "soundfree"
+version = "0.1.0"
+description = "Local Thai TTS (MMS / KhanomTan / F5-TTS)"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["tts", "thai", "speech", "offline", "mms", "coqui"]
+authors = [{ name = "SoundFree" }]
+
+# Keep runtime deps in requirements.txt to avoid auto-installing torch via PEP 621
+dependencies = []
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
