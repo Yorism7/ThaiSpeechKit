@@ -1,0 +1,1 @@
+Hello, today we will test the offline Thai text-to-speech system using open-source models from Hugging Face for local use. We hope this will help make voice-over work, articles, or podcasts more convenient and faster!

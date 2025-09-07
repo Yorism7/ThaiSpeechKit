@@ -85,7 +85,7 @@ def main() -> None:
             device=args.device,
         )
     elif engine == "khanomtan":
-        from .engines.khanomtan import tts_khanomtan
+        from .engines.khanomtan_simple import tts_khanomtan_simple as tts_khanomtan
 
         audio, sr = tts_khanomtan(
             chunks,
